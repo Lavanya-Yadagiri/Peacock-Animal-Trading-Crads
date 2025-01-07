@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Card Styles */
+.card {
+    width: 300px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+}
+
+/* Animal Name */
+.animal-name {
+    font-size: 24px;
+    margin-bottom: 12px;
+    color: #444;
+    text-align: center;
+}
+
+/* Animal Image */
+.animal-image {
+    width: 100%;
+    height: auto;
+    border: 2px solid #444;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+/* Info Box */
+.info-box {
+    border: 2px solid #444;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f5f5f5;
+    text-align: left;
+}
+
+/* Interesting Fact */
+.fact {
+    font-size: 16px;
+    margin-bottom: 12px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Animal Details */
+.animal-details {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.animal-details li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+.animal-details span {
+    font-weight: bold;
+    color: #222;
+}
+
+/* Description */
+.description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+}
